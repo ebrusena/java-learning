@@ -19,3 +19,4 @@ public class methods {
         System.out.println("telefonun kdvli fiyatı"+telefonSonFiyat+"Tl");
     }
 }
+

@@ -30,10 +30,6 @@ public class Calisan {
 
     static void main(String[] args) {
         Yazilimci y1= new Yazilimci("ahmet",5000,"java");
-        y1.bilgiVer(); // Çıktı: Yazılımcı: Ahmet - Dil: Java - Maaş: 50000.0
 
-        // Setter kullanımı
-        y1.setMaas(60000);
-        System.out.println("Yeni Maaş: " + y1.getMaas());
     }
 }

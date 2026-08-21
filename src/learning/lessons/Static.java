@@ -36,12 +36,4 @@ class Veritabani {
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("2. MAIN METODU BAŞLADI");
 
-        // Nesne üretiyoruz
-        Veritabani v1 = new Veritabani();
-        Veritabani v2 = new Veritabani();
-    }
-}

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LessonSwitchCase {
     static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+          Scanner scanner = new Scanner(System.in);
 
         System.out.println("------MarKitchen Menü------");
         System.out.println("1-Çorbalar");

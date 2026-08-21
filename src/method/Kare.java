@@ -6,15 +6,22 @@ public class Kare {
         System.out.println(sayi+"sayının karesi:"+sonuc);
     }
 
-    public static void toplamiYazdır(int sayi1, int sayi2){
+    public static int toplamiYazdır(int sayi1, int sayi2, int sayi3){
 
-        int toplam = sayi1 + sayi2;
-        System.out.println("sayıların toplamı:"+toplam);
+        int toplamçarpım = (sayi1 + sayi2)*sayi3;
+        return toplamçarpım;
+
     }
 
     public static void main(String[] args) {
-        toplamiYazdır(12,13);
-        toplamiYazdır(11,44);
+
+        int gelenSonuc= toplamiYazdır(10,10,15);
+        System.out.println("sonuc:"+gelenSonuc);
+
+
+
+       // toplamiYazdır(12,13);
+        //toplamiYazdır(11,44);
     }
 
 
